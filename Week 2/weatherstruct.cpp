@@ -26,7 +26,7 @@ int main(){
 
     double averageRain = 0, totalRain = 0;
     double averageSnow = 0, totalSnow = 0;
-    double averageTemp = 0, high = 0, low = 151;
+    double averageTemp = 0, high = -151, low = 151;
 
     WeatherStats year[MONTHS];
     string monthNames[MONTHS] = {"Jan", "Feb", "Mar", "Apr", "May", "Jun", 
