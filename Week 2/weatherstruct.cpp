@@ -7,7 +7,8 @@ using namespace std;
   By: Kyle Riebeling
   On: 1/10/2024
   Description: Takes in user input for weather data foor each month in
-  the year to store that data in an array of structs.
+  the year to store that data in an array of structs. It then uses the
+  data stored in the structs to display averages across the year.
 */
 
 struct WeatherStats{
