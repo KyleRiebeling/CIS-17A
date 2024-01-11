@@ -17,6 +17,7 @@ int main(){
     long d;
     float e;
     double f;
+    float* arr = new float[5];
 
     cout << "Size of a char in bytes: " << sizeof(a) << endl;
     cout << "Size of an unsigned short int in bytes: " << sizeof(b) << endl;
