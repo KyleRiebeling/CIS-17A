@@ -7,7 +7,7 @@ using namespace std;
   By: Kyle Riebeling
   On: 1/11/2024
   Description: This program uses a function to shift an arrays
-  elements over one to the left and set the new first element
+  elements over one to the right and set the new first element
   to 0.0. The function recieves an array and returns the new
   bigger array, rather than modifying the original array. Main
   contains sample input to prove the function works.
