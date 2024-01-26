@@ -20,7 +20,7 @@ private:
     string city;
     string state;
     string zipCode; //Zipcode is a string to account for zip codes starting with 0
-    int phoneNum;
+    long long phoneNum;
 
 public:
 
@@ -43,7 +43,7 @@ public:
     string getZipCode();
 
     void setPhoneNum();
-    int getPhoneNum();
+    long long getPhoneNum();
 
 };
 

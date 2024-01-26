@@ -9,7 +9,7 @@ using namespace std;
   Description: Tester file to see if CustomerData class works as intended
 */
 
-int main(){
+int main() {
 
     CustomerData cust;
 
@@ -24,16 +24,17 @@ int main(){
     cust.setMailingList();
 
     //Print customer data
-    cout << "New Customer Data" << endl;
+    cout << endl << "New Customer Data" << endl;
     cout << "_________________" << endl;
     cout << "Name: " << cust.getFirstName() << " " << cust.getLastName() << endl;
 
     cout << "Full Address: " << cust.getAddress() << ", " << cust.getCity() <<
-            " " << cust.getState() << " " << cust.getZipCode() << endl;
+        " " << cust.getState() << " " << cust.getZipCode() << endl;
 
     cout << "Phone Number: " << cust.getPhoneNum() << endl;
 
     string s = (cust.getMailingList()) ? "Yes" : "No";
     cout << "Mailing list: " << s << endl;
 
+    return 0;
 }

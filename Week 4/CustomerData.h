@@ -13,7 +13,7 @@ using namespace std;
   and setters and getters for the new variables.
 */
 
-class CustomerData : public PersonData{
+class CustomerData : public PersonData {
 private:
     static int lastCustNum;
     long int customerNumber;
