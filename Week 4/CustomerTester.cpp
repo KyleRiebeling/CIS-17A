@@ -15,7 +15,7 @@ int main(){
 
     //Fill Customer data
     cust.setFirstName();
-    /*cust.setLastName();
+    cust.setLastName();
     cust.setAddress();
     cust.setCity();
     cust.setState();
@@ -35,8 +35,5 @@ int main(){
 
     string s = (cust.getMailingList()) ? "Yes" : "No";
     cout << "Mailing list: " << s << endl;
-
-    */
-
 
 }
